@@ -22,7 +22,7 @@
             </a>
             <p class="fw-bold">90.8 Mhz FM Community Radio, GNDEC</p>
             <a href="https://www.gndec.ac.in/" class="mb-3">
-                <img src="./assets/img/gne.png" alt="GNDEC Logo" width="50">
+                <img src="./assets/img/gne.png" alt="GNDEC Logo" width="55">
             </a>
         </div>
     </header>
