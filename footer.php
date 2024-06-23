@@ -53,7 +53,7 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="./index.php" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="./gallery.php" class="nav-link p-0 text-body-secondary">Galery</a></li>
+                    <li class="nav-item mb-2"><a href="./gallery.php" class="nav-link p-0 text-body-secondary">Gallery</a></li>
                     <li class="nav-item mb-2"><a href="./livefm/index.php" class="nav-link p-0 text-body-secondary">Live FM</a></li>
                     <li class="nav-item mb-2"><a href="./index.php#ContactUs" class="nav-link p-0 text-body-secondary">Contact</a></li>
                 </ul>
