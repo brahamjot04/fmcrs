@@ -1,9 +1,10 @@
 <div class="container">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top border-bottom">
         <div class="col mb-3">
-            <a href="./index.php" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none fw-bold">
+            <a href="./index.php" class="d-flex align-items-center justify-content-center mb-3 link-body-emphasis text-decoration-none fw-bold">
                 <img src="./assets/img/fmcrs.png" alt="90.8 MHz FMCRS Logo" width="50"><br>
-                <span class="ms-3">90.8 Mhz FM <br />Community Radio</span>
+                <span class="ms-3 d-md-block d-none">90.8 Mhz FM <br />Community Radio</span>
+                <span class="ms-3 d-md-none d-block">90.8 Mhz FM Community Radio</span>
             </a>
             <!-- Social Icons Start -->
             <div class="d-flex justify-content-evenly social-links mt-5">
@@ -48,27 +49,34 @@
 
         <div class="col mb-3">
             <!-- <h5>Section</h5> -->
-            <ul class="nav flex-column text-sm-center">
-                <li class="nav-item mb-2"><a href="./index.php" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="./gallery.php" class="nav-link p-0 text-body-secondary">Galery</a></li>
-                <li class="nav-item mb-2"><a href="./livefm/index.php" class="nav-link p-0 text-body-secondary">Live FM</a></li>
-                <li class="nav-item mb-2"><a href="./index.php#ContactUs" class="nav-link p-0 text-body-secondary">Contact</a></li>
-            </ul>
+            <div class="d-flex justify-content-center">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./index.php" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="./gallery.php" class="nav-link p-0 text-body-secondary">Galery</a></li>
+                    <li class="nav-item mb-2"><a href="./livefm/index.php" class="nav-link p-0 text-body-secondary">Live FM</a></li>
+                    <li class="nav-item mb-2"><a href="./index.php#ContactUs" class="nav-link p-0 text-body-secondary">Contact</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="col mb-3">
             <!-- <h5>Section</h5> -->
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="./events.php" class="nav-link p-0 text-body-secondary">Events</a></li>
-                <li class="nav-item mb-2"><a href="./podcasts.php" class="nav-link p-0 text-body-secondary">Podcasts</a></li>
-                <li class="nav-item mb-2"><a href="./members.php" class="nav-link p-0 text-body-secondary">Members</a></li>
-                <li class="nav-item mb-2"><a href="https://www.gndec.ac.in" class="nav-link p-0 text-body-secondary">GNDEC Home</a></li>
-            </ul>
+            <div class="d-flex justify-content-center">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./events.php" class="nav-link p-0 text-body-secondary">Events</a></li>
+                    <li class="nav-item mb-2"><a href="./podcasts.php" class="nav-link p-0 text-body-secondary">Podcasts</a></li>
+                    <li class="nav-item mb-2"><a href="./members.php" class="nav-link p-0 text-body-secondary">Members</a></li>
+                    <li class="nav-item mb-2"><a href="https://www.gndec.ac.in" class="nav-link p-0 text-body-secondary">GNDEC Home</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="col mb-3">
-
-            <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.9395765694885!2d75.85755807558536!3d30.860366674522965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a832d5a158fd1%3A0xc8823d2bbed466b0!2s90.8%20MHz%20FM%20Community%20Radio%20Station!5e0!3m2!1sen!2sin!4v1719149075746!5m2!1sen!2sin" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="d-flex justify-content-center">
+                <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.9395765694885!2d75.85755807558536!3d30.860366674522965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a832d5a158fd1%3A0xc8823d2bbed466b0!2s90.8%20MHz%20FM%20Community%20Radio%20Station!5e0!3m2!1sen!2sin!4v1719149075746!5m2!1sen!2sin" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
 
 
