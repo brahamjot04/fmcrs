@@ -1,6 +1,6 @@
-<nav class="navbar">
-    <div class="d-flex align-items-center justify-content-center container-fluid">
-        <ul class="nav nav-underline justify-content-center">
+<nav class="navbar sticky-top">
+    <div class="container-fluid d-flex justify-content-evenly">
+        <ul class="nav nav-underline ">
             <li class="navitem">
                 <a href="" class="nav-link link-body-emphasis">Home</a>
             </li>

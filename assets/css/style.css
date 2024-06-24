@@ -55,11 +55,3 @@ a:hover {
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
-
-.navitem .nav-link {
-  /* color: whitesmoke; */
-}
-
-.nav-underline {
-  color: #eaff00;
-}
