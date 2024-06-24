@@ -79,6 +79,6 @@
     </header>
     <!-- For Mobile Screen End -->
     <?php
-    include 'nav.php';
+    // include 'nav.php';
     ?>
 </div>

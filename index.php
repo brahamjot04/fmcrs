@@ -22,6 +22,7 @@
             vertical-align: -0.125em;
             fill: currentColor;
         }
+
         /* Theme Changer Icon Color End */
 
         /* Theme Changer Button Color Start */
@@ -41,6 +42,7 @@
             --bs-btn-active-bg: #5a23c8;
             --bs-btn-active-border-color: #5a23c8;
         }
+
         /* Theme Changer Button Color End */
         .bd-mode-toggle {
             z-index: 1500;
@@ -49,9 +51,6 @@
         .bd-mode-toggle .dropdown-menu .active .bis {
             display: block !important;
         }
-
-
-
     </style>
     <!-- Custom CSS End -->
 
@@ -133,16 +132,21 @@
         </ul>
     </div>
     <!-- Theme Changer End -->
-    <div class="container-fluid">
 
-        <!-- Header Start -->
-        <?php include 'header.php'; ?>
-        <!-- Header End -->
+    <main style="height: 100vh;">
 
-        <!-- Footer Start -->
-        <?php include 'footer.php'; ?>
-        <!-- Footer End -->
-    </div>
+        <div class="container-fluid">
+
+            <!-- Header Start -->
+            <?php include 'header.php'; ?>
+            <?php include 'nav.php'; ?>
+            <!-- Header End -->
+
+        </div>
+    </main>
+    <!-- Footer Start -->
+    <?php include 'footer.php'; ?>
+    <!-- Footer End -->
 
     <!-- Custom JavaScript Start -->
     <script src="./assets/javascript/script.js"></script>
