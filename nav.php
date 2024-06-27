@@ -1,30 +1,31 @@
-<nav class="navbar sticky-top">
-    <div class="container-fluid d-flex justify-content-evenly">
-        <ul class="nav nav-underline ">
+<nav class="navbar sticky-top d-none d-md-block my-3" style="backdrop-filter: blur(10px);">
+    <div class="container d-flex justify-content-evenly">
+        <ul class="nav nav-underline">
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Home</a>
+                <a href="./index.php" class="nav-link link-body-emphasis fw-bold">Home</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Gallery</a>
+                <a href="./gallery.php" class="nav-link link-body-emphasis fw-bold">Gallery</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Members</a>
+                <a href="./members.php" class="nav-link link-body-emphasis fw-bold">Members</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Live FM</a>
+                <a href="./livefm/" class="nav-link link-body-emphasis fw-bold">Live FM</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Events</a>
+                <a href="./events.php" class="nav-link link-body-emphasis fw-bold">Events</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Podacsts</a>
+                <a href="./podcasts.php" class="nav-link link-body-emphasis fw-bold">Podacsts</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">Contact</a>
+                <a href="./index.php#ContactUs" class="nav-link link-body-emphasis fw-bold">Contact</a>
             </li>
             <li class="navitem">
-                <a href="" class="nav-link link-body-emphasis">GNDEC Home</a>
+                <a href="https://www.gndec.ac.in/" class="nav-link link-body-emphasis fw-bold">GNDEC Home</a>
             </li>
         </ul>
     </div>
+    <!-- <hr class="container"> -->
 </nav>

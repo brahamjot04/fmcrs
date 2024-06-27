@@ -133,7 +133,7 @@
     </div>
     <!-- Theme Changer End -->
 
-    <main style="height: 100vh;">
+    <main>
 
         <div class="container-fluid">
 
@@ -142,7 +142,44 @@
             <?php include 'nav.php'; ?>
             <!-- Header End -->
 
-        </div>
+            <!-- Hero Section Start -->
+            <section class="hero-section d-flex justify-content-center align-items-center mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col">
+                            <div class="hero-content text-center">
+                                <img src="./assets/img/group_photo1.jpg" class="rounded-3 shadow-lg w-100">
+                                <!-- <h1 class="text-white">90.8 Mhz FM Community Radio, GNDEC</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero Section End -->
+            <hr>
+
+            <!-- About Section Start -->
+            <div class="container about-section text-white my-5">
+                <div class="card" style="background-image: url('assets/img/recording_system.jpg'); background-size: cover; background-position: center;">
+                    <div class="row card-body">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 col-xs-12 shadow-lg border border-dark rounded-3" style="backdrop-filter:blur(5px)">
+
+                            <h1 class="card-title text-center" style="color: rgb(210, 199, 0);">
+                                About Us
+                            </h1>
+                            <p class="card-title text-center text-white">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio numquam aperiam repellat a. Quam cum, vitae assumenda libero nobis ipsum itaque! Cumque, amet consectetur incidunt sapiente nulla corrupti inventore magni tempore dolore beatae, mollitia voluptates recusandae, voluptatum praesentium voluptas! Pariatur, odit ratione deserunt in ad libero, delectus harum sed recusandae cupiditate quasi impedit consequatur maiores itaque, voluptates enim explicabo a nulla fuga alias reprehenderit nesciunt iure. Voluptatem corporis rerum dolorem ipsa fugiat, animi sit, voluptatum, magnam aperiam quis similique eaque veritatis distinctio! Maiores a eligendi itaque at, sequi corporis recusandae! Qui quas eaque amet. Fugit placeat sed vel quos amet?
+                            </p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- About Section End -->
+            <hr>
+            <!-- Contact Us Section Start -->
+            <!-- Contact Us Section End -->
     </main>
     <!-- Footer Start -->
     <?php include 'footer.php'; ?>

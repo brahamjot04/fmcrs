@@ -1,4 +1,4 @@
-<div class="container border-top">
+<div class="container border-top mt-3">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 mb-3 border-bottom">
         <div class="col mb-1">
             <a href="./index.php" class="d-flex align-items-center justify-content-center mb-3 link-body-emphasis text-decoration-none fw-bold">
