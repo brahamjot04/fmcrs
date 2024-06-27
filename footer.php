@@ -1,5 +1,5 @@
 <div class="container border-top mt-3">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 mb-3 border-bottom">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mb-3 border-bottom">
         <div class="col mb-1">
             <a href="./index.php" class="d-flex align-items-center justify-content-center mb-3 link-body-emphasis text-decoration-none fw-bold">
                 <img src="./assets/img/fmcrs.png" alt="90.8 MHz FMCRS Logo" width="50" /><br />
@@ -88,18 +88,18 @@
             <div>
                 <p>
                     <i class="bi bi-geo-alt-fill"></i>
-                    <span class="">FM-CRS Studio, 1st floor, PG Block, GNDEC</span>
+                    <span class="ms-2">FM-CRS Studio, 1st floor, PG Block, GNDEC</span>
                 </p>
             </div>
             <div>
                 <p>
                     <i class="bi bi-envelope"></i>
-                    <a href="mailto:fmcrs@gndec.ac.in" class="text-decoration-none link-body-emphasis">fmcrs@gndec.ac.in</a>
+                    <a href="mailto:fmcrs@gndec.ac.in" class="ms-2 text-decoration-none link-body-emphasis">fmcrs@gndec.ac.in</a>
                 </p>
             </div>
             <div>
                 <i class="bi bi-telephone-fill"></i>
-                <a href="tel:" class="text-decoration-none link-body-emphasis"></a>
+                <a href="tel:+91161XXXXXXX" class="text-decoration-none ms-2 link-body-emphasis">+91-161-XXXXXXX</a>
             </div>
         </div>
     </footer>
