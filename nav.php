@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top d-none d-md-block my-3" style="backdrop-filter: blur(10px);">
+<nav class="navbar sticky-top d-none d-md-block my-3" style="backdrop-filter: blur(.5rem);">
     <div class="container d-flex justify-content-evenly">
         <ul class="nav nav-underline">
             <li class="navitem">
