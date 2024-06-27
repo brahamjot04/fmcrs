@@ -45,8 +45,8 @@
         <div class="col mb-1"></div>
 
         <div class="col mb-1">
-            <!-- <h5>Section</h5> -->
-            <div class="d-flex justify-content-center">
+            <h5>Useful Links</h5>
+            <div class="">
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
                         <a href="./index.php" class="nav-link p-0 text-body-secondary">Home</a>
@@ -65,8 +65,8 @@
         </div>
 
         <div class="col mb-1">
-            <!-- <h5>Section</h5> -->
-            <div class="d-flex justify-content-center">
+            <div class="mb-4"></div>
+            <div class="">
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
                         <a href="./events.php" class="nav-link p-0 text-body-secondary">Events</a>
@@ -85,6 +85,7 @@
         </div>
 
         <div class="col mb-1">
+            <h5>Contact Info</h5>
             <div>
                 <p>
                     <i class="bi bi-geo-alt-fill"></i>
