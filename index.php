@@ -56,10 +56,7 @@
 
     <!-- AOS CDN Start -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
     <!-- AOS CDN End -->
 
     <!-- Favicon Start -->
@@ -146,7 +143,7 @@
             <!-- Header End -->
 
             <!-- Hero Section Start -->
-            <section class="hero-section d-flex justify-content-center align-items-center mb-5 mt-5 mt-md-0">
+            <section class="hero-section d-flex justify-content-center align-items-center mb-5 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="ease-in-back">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col">
@@ -162,7 +159,7 @@
             <hr>
 
             <!-- About Section Start -->
-            <div class="container about-section rounded-3 text-white my-5">
+            <div class="container about-section rounded-3 text-white my-5" data-aos="fade-up">
                 <div class="card rounded-3 border border-dark" style="background-image: url('assets/img/recording_system.jpg'); background-size: cover; background-position: center;">
                     <div class="rounded-3" style="backdrop-filter:blur(5px)">
 
@@ -265,6 +262,11 @@
     </script>
     <!-- Typed.js End -->
     <!-- Custom JavaScript End -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

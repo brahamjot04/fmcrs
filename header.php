@@ -1,4 +1,4 @@
-<div class="container text-center">
+<div class="container text-center" data-aos="zoom-in">
 
     <!-- For Laptop Screen Start -->
     <header class="row row-cols-1 mt-3 d-md-block d-none">
