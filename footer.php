@@ -113,3 +113,53 @@
     </p>
     <!-- </div> -->
 </div>
+
+
+
+<!-- Custom JavaScript Start -->
+<script src="./assets/javascript/script.js"></script>
+<script src="./assets/javascript/color-modes.js"></script>
+
+<!-- Typed.js Start -->
+<script>
+    // Typing Effect on the header for Bigger Screens Start
+    let app = document.getElementById('typed1');
+    let typewriter = new Typewriter(app, {
+        loop: false
+    });
+    typewriter.typeString('90.8 MHz FM Community Radio')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('Guru Nanak Dev Engineering College, Ludhiana')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('90.8 MHz FM Community Radio')
+        .start();
+    // Typing Effect on the header for Bigger Screens End
+
+    // Typing Effect on the header for Smaller Screens Start
+    let app2 = document.getElementById('typed');
+    let typewriter2 = new Typewriter(app2, {
+        loop: false
+    });
+    typewriter2.typeString('90.8 MHz FM Community Radio')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('Guru Nanak Dev Engineering College')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('90.8 MHz FM Community Radio')
+        .start();
+    // Typing Effect on the header for Smaller Screens End
+</script>
+<!-- Typed.js End -->
+<!-- Custom JavaScript End -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Custom JavaScript End -->
