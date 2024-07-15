@@ -1,8 +1,8 @@
 <div class="container border-top mt-3">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mb-3 border-bottom">
         <div class="col mb-1">
-            <a href="./index.php" class="d-flex align-items-center justify-content-center mb-3 link-body-emphasis text-decoration-none fw-bold">
-                <img src="./assets/img/fmcrs.png" alt="90.8 MHz FMCRS Logo" width="50" /><br />
+            <a href="../index.php" class="d-flex align-items-center justify-content-center mb-3 link-body-emphasis text-decoration-none fw-bold">
+                <img src="../assets/img/fmcrs.png" alt="90.8 MHz FMCRS Logo" width="50" /><br />
                 <span class="ms-3 d-md-block d-none">90.8 Mhz FM <br />Community Radio</span>
                 <span class="ms-3 d-md-none d-block">90.8 Mhz FM Community Radio</span>
             </a>
@@ -49,16 +49,16 @@
             <div class="">
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a href="./index.php" class="nav-link p-0 text-body-secondary">Home</a>
+                        <a href="../index.php" class="nav-link p-0 text-body-secondary">Home</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="./gallery.php" class="nav-link p-0 text-body-secondary">Gallery</a>
+                        <a href="../gallery/" class="nav-link p-0 text-body-secondary">Gallery</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="./livefm/index.php" class="nav-link p-0 text-body-secondary">Live FM</a>
+                        <a href="../livefm/" class="nav-link p-0 text-body-secondary">Live FM</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="./index.php#ContactUs" class="nav-link p-0 text-body-secondary">Contact</a>
+                        <a href="../index/#ContactUs" class="nav-link p-0 text-body-secondary">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,13 +69,13 @@
             <div class="">
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a href="./events.php" class="nav-link p-0 text-body-secondary">Events</a>
+                        <a href="../events/" class="nav-link p-0 text-body-secondary">Events</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="./podcasts.php" class="nav-link p-0 text-body-secondary">Podcasts</a>
+                        <a href="../podcasts/" class="nav-link p-0 text-body-secondary">Podcasts</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="./members.php" class="nav-link p-0 text-body-secondary">Members</a>
+                        <a href="../members/" class="nav-link p-0 text-body-secondary">Members</a>
                     </li>
                     <li class="nav-item mb-2">
                         <a href="https://www.gndec.ac.in" class="nav-link p-0 text-body-secondary">GNDEC Home</a>
@@ -109,7 +109,7 @@
     <p class="text-center text-body-secondary">
         &copy; <span id="year"></span> - All Rights Reserved - GNDEC | Made with
         &hearts; by
-        <a href="./devs.php" class="text-decoration-none">Technical Team, FMCRS</a>
+        <a href="../devs/" class="text-decoration-none">Technical Team, FMCRS</a>
     </p>
     <!-- </div> -->
 </div>
@@ -117,8 +117,8 @@
 
 
 <!-- Custom JavaScript Start -->
-<script src="./assets/javascript/script.js"></script>
-<script src="./assets/javascript/color-modes.js"></script>
+<script src="../assets/javascript/script.js"></script>
+<script src="../assets/javascript/color-modes.js"></script>
 
 <!-- Typed.js Start -->
 <script>
