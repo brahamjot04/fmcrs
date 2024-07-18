@@ -1,4 +1,4 @@
-<?php include '../auth/conn.php'; ?>
+<?php include '../common/conn.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
