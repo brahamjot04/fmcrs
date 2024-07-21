@@ -2,25 +2,25 @@
     <div class="container d-flex justify-content-evenly">
         <ul class="nav nav-underline">
             <li class="navitem">
-                <a href="./index.php" class="nav-link link-body-emphasis fw-bold">Home</a>
+                <a href="../index/" class="nav-link link-body-emphasis fw-bold">Home</a>
             </li>
             <li class="navitem">
-                <a href="./gallery.php" class="nav-link link-body-emphasis fw-bold">Gallery</a>
+                <a href="../gallery/" class="nav-link link-body-emphasis fw-bold">Gallery</a>
             </li>
             <li class="navitem">
-                <a href="./members.php" class="nav-link link-body-emphasis fw-bold">Members</a>
+                <a href="../members/" class="nav-link link-body-emphasis fw-bold">Members</a>
             </li>
             <li class="navitem">
-                <a href="./livefm/" class="nav-link link-body-emphasis fw-bold">Live FM</a>
+                <a href="../livefm/" class="nav-link link-body-emphasis fw-bold">Live FM</a>
             </li>
             <li class="navitem">
-                <a href="./events.php" class="nav-link link-body-emphasis fw-bold">Events</a>
+                <a href="../events/" class="nav-link link-body-emphasis fw-bold">Events</a>
             </li>
             <li class="navitem">
-                <a href="./podcasts.php" class="nav-link link-body-emphasis fw-bold">Podacsts</a>
+                <a href="../podcasts/" class="nav-link link-body-emphasis fw-bold">Program Schedule</a>
             </li>
             <li class="navitem">
-                <a href="./index.php#ContactUs" class="nav-link link-body-emphasis fw-bold">Contact</a>
+                <a href="../index/#ContactUs" class="nav-link link-body-emphasis fw-bold">Contact</a>
             </li>
             <li class="navitem">
                 <a href="https://www.gndec.ac.in/" class="nav-link link-body-emphasis fw-bold">GNDEC Home</a>

@@ -60,9 +60,10 @@ if (!isset($_SESSION['username']) || $_SESSION['loggedin'] !== true || !isset($_
                     <div class="card-header">
                         <h5 class="card-title text-center">Add Event</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body d-flex justify-content-evenly">
                         <!-- <p class="card-text">Add a new user to the system.</p> -->
-                        <a href="./add-event.php" class="btn btn-primary">Add User</a>
+                        <a href="./add-event.php" class="btn btn-primary">Add Event</a>
+                        <a href="./add-event.php" class="btn btn-primary">Edit Event</a>
                     </div>
                 </div>
             </div>

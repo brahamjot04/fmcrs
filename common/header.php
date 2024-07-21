@@ -131,7 +131,7 @@
                                         <a href="../events.php" class="nav-link link-body-emphasis">Events</a>
                                     </li>
                                     <li class="navitem">
-                                        <a href="../podcasts.php" class="nav-link link-body-emphasis">Podacsts</a>
+                                        <a href="../podcasts.php" class="nav-link link-body-emphasis">Program Schedule</a>
                                     </li>
                                     <li class="navitem">
                                         <a href="../index.php#ContactUs" class="nav-link link-body-emphasis">Contact</a>
