@@ -47,21 +47,22 @@ if (!isset($_SESSION['username']) || $_SESSION['loggedin'] !== true || !isset($_
     <!-- Navbar Ended -->
 
     <!-- Main Content Started -->
-    <div class="container mt-5">
-        <div class="d-flex p-3 justify-content-center rounded-3 bg-body-tertiary">
+    <div class="container mt-5 bg-body-tertiary p-3">
+        <div class="d-flex justify-content-center rounded-3 mb-4">
             <div class="h3">
                 Welcome, <?php echo $_SESSION['username'] ?>, to the Admin Panel
             </div>
         </div>
         <div class="row">
+            <!-- Add Event Card -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title text-center">Add Users</h5>
+                        <h5 class="card-title text-center">Add Event</h5>
                     </div>
                     <div class="card-body">
-                        <p class="card-text">Add a new user to the system.</p>
-                        <a href="../add-user/" class="btn btn-primary">Add User</a>
+                        <!-- <p class="card-text">Add a new user to the system.</p> -->
+                        <a href="./add-event.php" class="btn btn-primary">Add User</a>
                     </div>
                 </div>
             </div>
