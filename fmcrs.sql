@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jul 21, 2024 at 02:12 PM
+-- Generation Time: Jul 22, 2024 at 05:36 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -57,6 +57,7 @@ CREATE TABLE `faculty_members` (
 
 CREATE TABLE `users` (
   `sno` int NOT NULL,
+  `Name` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -65,8 +66,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`sno`, `username`, `password`) VALUES
-(5, 'test', '$2y$10$lGqfuEZSxIn4e272cge8kOJfEFxYjKaJE7JO3WgYy2b91kSkfUUku');
+INSERT INTO `users` (`sno`, `Name`, `username`, `password`) VALUES
+(7, 'Brahamjot Singh', 'test', '$2y$10$LF.HaFreM15YoavT8c/OluWpRepbx78wKrvSkcoA/DjyR4BYDUyfu');
 
 --
 -- Indexes for dumped tables
@@ -107,7 +108,7 @@ ALTER TABLE `faculty_members`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `sno` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `sno` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
