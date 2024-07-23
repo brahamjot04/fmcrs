@@ -80,7 +80,18 @@ if (isset($_GET['delete'])) {
                                         echo 'User';
                                     } ?></td>
                                 <td>
-                                    <a href="#" id="deleteUserBtn" onclick="addSession();" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#DeleteUserModal">Delete User</a>
+                                    <?php
+                                    if ($row['username'] != $_SESSION['username']) {
+
+                                    ?>
+                                        <a onClick="javascript:return confirm('Are you sure you want to delete the user?')" href="./list-admin.php?delete=<?php echo $row['sno'] ?>" class="btn btn-danger btn-sm">Delete User</a>
+                                    <?php
+                                    } else {
+                                    ?>
+                                        <button class='btn btn-danger btn-sm' data-bs-toggle="modal" data-bs-target="#UnableToDeleteCurrentUserModal">Delete User</button>
+                                    <?php
+                                    }
+                                    ?>
                                 </td>
                         <?php
                                 echo "</tr>";
@@ -97,30 +108,23 @@ if (isset($_GET['delete'])) {
 </div>
 <!-- Main Content Ended -->
 <!-- Delete User Modal -->
-<div class="modal fade" id="DeleteUserModal" tabindex="-1" aria-labelledby="DeleteUserModalLabel" aria-hidden="true">
+<div class="modal fade" id="UnableToDeleteCurrentUserModal" tabindex="-1" aria-labelledby="UnableToDeleteCurrentUserModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="DeleteUserModalLabel">Delete User</h5>
+                <h5 class="modal-title" id="UnableToDeleteCurrentUserModalLabel">Unable to delete user</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <p>Are you sure you want to delete this user?</p>
+            <div class="modal-body text-center">
+                <p class="text-danger">You can not delete active user!</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <a href="list-admin.php?delete=<?php echo $_SESSION['delete_sno'];
-                                                unset($_SESSION['delete_sno']); ?>" class="btn btn-danger">Delete</a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
 </div>
 
-<script>
-    function addSession() {
-        document.getElementById('deleteUserBtn').href = "<?php echo $_SESSION['delete_sno'] = $row['sno']; ?>";
-    }
-</script>
 
 <!-- Footer Start -->
 <?php
