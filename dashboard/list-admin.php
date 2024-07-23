@@ -3,14 +3,30 @@
 include './admin-navbar.php';
 ?>
 <!-- Navbar Ended -->
-
+<?php
+if ($_SESSION['role'] == 0) {
+    $_SESSION['error'] = "You are not authorized to view this page";
+    header("Location: ./index.php");
+    exit;
+}
+?>
 <!-- Deleting user start -->
 <?php
 if (isset($_GET['delete'])) {
     $sno = $_GET['delete'];
 
     $sql = "DELETE FROM users WHERE sno = $sno";
-    if ($conn->query($sql) === TRUE) {
+    $sql2 = "SELECT * FROM users";
+    $result = $conn->query($sql2);
+    $row = $result->fetch_assoc();
+    $totalRows = $result->num_rows;
+
+    // Verifying if only 1 admin exists
+    if ($totalRows == 1) {
+        $_SESSION['error'] = "Cannot delete the only admin";
+        header('location: list-admin.php');
+        exit();
+    } else if ($conn->query($sql) === TRUE) {
         $_SESSION['error'] = "Admin Deleted Successfully";
         header('location: list-admin.php');
     } else {
@@ -42,6 +58,7 @@ if (isset($_GET['delete'])) {
                             <th scope="col">ID</th>
                             <th scope="col">Name</th>
                             <th scope="col">Username</th>
+                            <th scope="col">Admin Type</th>
                             <th scope="col">Action</th>
                             <!-- <th scope="col"></th> -->
                         </tr>
@@ -56,12 +73,14 @@ if (isset($_GET['delete'])) {
                                 echo "<tr>";
                                 echo "<td>" . $row['sno'] . "</td>";
                                 echo "<td>" . $row['Name'] . "</td>";
-                                echo "<td>" . $row['username'] . "</td>";
-                                // echo "<td> <button class='btn btn-primary btn-sm'>Change Password</button> </td>";
-                        ?>
+                                echo "<td>" . $row['username'] . "</td>"; ?>
+                                <td><?php if ($row['admin_type'] == 1) {
+                                        echo 'Admin';
+                                    } else {
+                                        echo 'User';
+                                    } ?></td>
                                 <td>
-                                    <a href="<?php $_SESSION['delete_sno'] = $row['sno'] ?>" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#DeleteUserModal">Delete User</a>
-                                    <!-- <a href="list-admin.php?delete=<?php echo $row['sno']; ?>" class="btn btn-danger btn-sm">Delete User</a> -->
+                                    <a href="#" id="deleteUserBtn" onclick="addSession();" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#DeleteUserModal">Delete User</a>
                                 </td>
                         <?php
                                 echo "</tr>";
@@ -96,6 +115,13 @@ if (isset($_GET['delete'])) {
         </div>
     </div>
 </div>
+
+<script>
+    function addSession() {
+        document.getElementById('deleteUserBtn').href = "<?php echo $_SESSION['delete_sno'] = $row['sno']; ?>";
+    }
+</script>
+
 <!-- Footer Start -->
 <?php
 include './admin-footer.php';

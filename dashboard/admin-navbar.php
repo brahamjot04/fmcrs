@@ -1,7 +1,8 @@
 <?php
 include_once "../common/conn.php";
+
 session_start();
-if (!isset($_SESSION['username']) || $_SESSION['loggedin'] !== true || !isset($_SESSION['id'])) {
+if (!isset($_SESSION['username']) || $_SESSION['loggedin'] !== true || !isset($_SESSION['id']) || !isset($_SESSION['role'])) {
     header('Location: ../');
     exit();
 }

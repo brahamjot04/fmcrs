@@ -2,7 +2,7 @@
 session_start();
 
 // Check if user is already logged in
-if (isset($_SESSION['id']) && $_SESSION['loggedin'] === true && isset($_SESSION['username'])) {
+if (isset($_SESSION['id']) && $_SESSION['loggedin'] === true && isset($_SESSION['username']) && isset($_SESSION['role'])) {
     header("Location: ../dashboard/");
     exit;
 }
@@ -57,6 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION["id"] = $row['sno'];
             $_SESSION["username"] = $username;
             $_SESSION['name'] = $row['Name'];
+            $_SESSION['role'] = $row['admin_type'];
 
             // Redirect User to Dashboard
             header("Location: ../dashboard/");
