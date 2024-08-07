@@ -1,5 +1,3 @@
-
-
 <body>
 
     <main>
@@ -15,17 +13,49 @@
             <section class="hero-section d-flex justify-content-center align-items-center mb-5 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="ease-in-back">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col">
-                            <div class="hero-content text-center">
-                                <img src="../assets/img/group_photo1.jpg" class="rounded-3 shadow-lg w-100">
-                                <!-- <h1 class="text-white">90.8 Mhz FM Community Radio, GNDEC</h1> -->
+                        <div class="col-12">
+                            <div class="card text-center mb-3" style="width: 100%; background-color: rgb(230, 225, 80); color: rgb(0, 0, 128);">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <!-- Left side content -->
+                                            <h4 class="card-title">Now Playing</h4>
+                                            <h3>
+                                                <p class="card-text">This is the content on the left side of the card. You can include text, images, or other elements here.</p>
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <!-- Right side content -->
+                                            <h4 class="card-title">Upcoming Show</h4>
+                                            <h3>
+                                                <p class="card-text">This is the content on the right side of the card. You can include text, images, or other elements here.</p>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Hero Section End -->
+            <!--hero section ends-->
+
             <hr>
+
+            <!--bootsrap acrousel-->
+            <div class="owl-carousel owl-theme">
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+            </div>
+
+
+
+
 
             <!-- About Section Start -->
             <div class="container about-section rounded-3 text-white my-5" data-aos="fade-up">
@@ -56,9 +86,9 @@
             <!-- Contact Us Section Start -->
             <section id="ContactUs" class="contact-us-section my-5">
                 <div class="container">
-                    <h1 class="text-center" >Contact Us</h1>
+                    <h1 class="text-center">Contact Us</h1>
                     <div class="row">
-                        <div class="col-md-6" >
+                        <div class="col-md-6">
                             <form action="" method="post">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Name</label>
@@ -77,9 +107,9 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-md-6" >
+                        <div class="col-md-6">
                             <!-- <h1 class="text-center">Location</h1> -->
-                            <div class="d-flex justify-content-center mt-4" >
+                            <div class="d-flex justify-content-center mt-4">
                                 <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.9395765694885!2d75.85755807558536!3d30.860366674522965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a832d5a158fd1%3A0xc8823d2bbed466b0!2s90.8%20MHz%20FM%20Community%20Radio%20Station!5e0!3m2!1sen!2sin!4v1719149075746!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
@@ -89,15 +119,26 @@
 
 
     </main>
+
+
+
     <!-- Footer Start -->
     <?php include '../common/footer.php'; ?>
     <!-- Footer End -->
+
+
+
+
+
+
 
     <!-- Custom JavaScript Start -->
     <!-- <script src="./assets/javascript/script.js"></script> -->
     <!-- <script src="./assets/javascript/color-modes.js"></script> -->
 
-    
+
+
+
 </body>
 
 </html>

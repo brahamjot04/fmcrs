@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Bootstrap Icon CDN End -->
 
+
+    <!-- <link rel="stylesheet" href="../assets/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
     <!-- Custom CSS Start -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
-
         /* Theme Changer Icon Color Start */
         .bis {
             vertical-align: -0.125em;
@@ -57,6 +60,7 @@
     </style>
     <!-- Custom CSS End -->
 
+
     <!-- AOS CDN Start -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -66,9 +70,16 @@
     <link rel="icon" href="../assets/img/fmcrs.png" type="image/png">
     <!-- Favicon End -->
 
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
+
     <!-- Typed JS CDN Start -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <!-- Typed JS CDN End -->
+
 </head>
 
 <body>

@@ -116,6 +116,8 @@
 
 
 
+
+
 <!-- Custom JavaScript Start -->
 <script src="../assets/javascript/script.js"></script>
 <script src="../assets/javascript/color-modes.js"></script>
@@ -153,6 +155,46 @@
     // Typing Effect on the header for Smaller Screens End
 </script>
 <!-- Typed.js End -->
+
+<!-- Owl carousel Start -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="../assets/carousela/owl.carousel.min.js"></script>
+<script>
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// })
+</script>
+<script>
+
+    const webpack = require('webpack');
+
+//...
+plugins: [
+    new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+    }),
+],
+//...
+</script>
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<!-- Owl Carousel End -->
 <!-- Custom JavaScript End -->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -163,3 +205,4 @@
 <!-- Bootstrap JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!-- Custom JavaScript End -->
+
